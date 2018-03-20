@@ -6,6 +6,8 @@ git commit -a -m"$1"
 # switch to the "source" git branch
 git checkout source
 
+hugo
+
 # copy the generate site to the repository's root folder
 cp -r gitpage/public/* .
 
